@@ -1,5 +1,5 @@
 {
-  "name": "sonm",
+  "name": "presale-demo-pe",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -32,5 +32,19 @@
     "eject": "react-scripts eject",
     "now-start": "serve build/"
   },
-  "homepage": "http://sonm.io/preico/"
+  "homepage": "http://sonm.io/preico/",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rendaxia00/new-reeact-pro.git"
+  },
+  "keywords": [
+    "presale"
+  ],
+  "author": "rendaxia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rendaxia00/new-reeact-pro/issues"
+  }
 }
