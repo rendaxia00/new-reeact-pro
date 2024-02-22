@@ -1,0 +1,38 @@
+.tokens {
+  border: 1px solid #ec5a5a; }
+  .tokens__top {
+    padding: 29px 20px 27px; }
+  .tokens__title {
+    margin: 0 0 24px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #0b1c26; }
+  .tokens__wrapper {
+    display: flex;
+    justify-content: space-between; }
+  .tokens__count {
+    max-width: 47%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    flex-shrink: 1; }
+  .tokens__divider {
+    padding: 0 10px 27px;
+    align-self: flex-end; }
+  .tokens__num {
+    margin-bottom: 10px;
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 1;
+    color: #0b1c26; }
+  .tokens__descr {
+    margin: 0;
+    color: #0b1c26;
+    font-size: 13px; }
+  .tokens__course {
+    margin: 0;
+    padding: 10px;
+    border-top: 1px solid #ec5a5a;
+    color: #898989;
+    font-size: 13px;
+    text-align: center;
+    text-transform: uppercase; }

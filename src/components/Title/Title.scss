@@ -1,0 +1,14 @@
+.title {
+  margin: 0;
+  color: #0b1c26;
+  font-family: "PF Din Text Cond Pro", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+
+  &_big {
+      font-size: 48px;
+  }
+}

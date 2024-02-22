@@ -1,0 +1,13 @@
+.table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse; }
+  .table__head {
+    width: 25%;
+    font-size: 13px;
+    color: #000; }
+    .table__head:not(:last-child) {
+      padding-right: 45px; }
+    .table__head .table__cell {
+      padding-bottom: 7px;
+      border-bottom: 3px solid #ebebeb; }

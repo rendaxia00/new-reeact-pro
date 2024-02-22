@@ -1,0 +1,17 @@
+.table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    &__head {
+        width: 25%;
+        font-size: 13px;
+        color: #000;
+        &:not(:last-child) {
+            padding-right: 45px;
+        }
+        .table__cell {
+            padding-bottom: 7px;
+            border-bottom: 3px solid #ebebeb;
+        }
+    }
+}

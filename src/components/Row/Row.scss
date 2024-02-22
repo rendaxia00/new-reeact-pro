@@ -1,0 +1,17 @@
+.row {
+    width: 100%;
+    font-size: 18px;
+    color: #0b1c26;
+    border-bottom: 1px solid #ebebeb;
+    &__cell {
+        padding-top: 34px;
+        padding-bottom: 25px;
+        line-height: 1;
+        &_accept {
+            color: #4da07e;
+        }
+        &_decline {
+            color: #ed5a5a;
+        }
+    }
+}

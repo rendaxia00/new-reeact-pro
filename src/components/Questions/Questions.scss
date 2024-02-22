@@ -1,0 +1,15 @@
+.questions {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  column-count: 2;
+  column-gap: 45px;
+  -webkit-column-break-inside: avoid;
+  break-inside: avoid-column;
+
+  &__item {
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+}

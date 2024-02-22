@@ -1,0 +1,40 @@
+.transactions {
+    position: relative;
+    &__title {
+        font-size: 18px;
+        margin: 0 0 17px;
+        color: #0b1c26;
+    }
+    &__form {
+        width: 792px;
+        margin: 0 auto;
+    }
+    &__spin,
+    &__error {
+        position: absolute;
+        bottom: -45px;
+        display: inline-block;
+        margin: 0 auto;
+    }
+    &__error {
+        left: 0;
+        right: 0;
+        margin: 0;
+        text-align: center;
+        font-size: 18px;
+        color: red;
+    }
+    &__table {
+        width: 830px;
+        margin: 55px auto 0;
+    }
+    &__text {
+        margin: 0 0 35px;
+        text-align: left;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    &__success {
+        margin-top: 65px;
+    }
+}

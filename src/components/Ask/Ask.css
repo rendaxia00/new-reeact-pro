@@ -1,0 +1,9 @@
+.ask {
+  text-align: center; }
+  .ask__title {
+    margin-bottom: 20px; }
+  .ask__text {
+    margin: 0 0 70px; }
+  .ask__socials {
+    width: 490px;
+    margin: 0 auto; }

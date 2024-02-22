@@ -1,0 +1,25 @@
+.success {
+    padding: 37px 85px 40px;
+    font-size: 18px;
+    color: #0b1c26;
+    background-color: rgba(186, 214, 201, 0.2);
+    &__title,
+    &__text {
+        margin: 0;
+        line-height: 1.2;
+    }
+    &__text {
+        &_indent {
+            margin-top: 30px;
+        }
+    }
+    &__links {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__link {
+        color: #245fa1;
+        text-decoration: underline;
+    }
+}

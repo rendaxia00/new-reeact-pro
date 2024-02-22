@@ -1,0 +1,12 @@
+.logo {
+    &__image {
+        width: 116px;
+        height: 35px;
+        vertical-align: top;
+
+        &_big {
+            width: 104px;
+            height: 136px;
+        }
+    }
+}

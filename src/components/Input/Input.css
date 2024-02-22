@@ -1,0 +1,13 @@
+.input {
+  padding: 28px 28px 24px;
+  box-shadow: 0 0 16px rgba(11, 28, 38, 0.14);
+  background-color: #ffffff; }
+  .input__field {
+    width: 100%;
+    text-align: center;
+    height: 47px;
+    background: none;
+    border: none;
+    outline: none;
+    color: #2f2c31;
+    font-size: 18px; }

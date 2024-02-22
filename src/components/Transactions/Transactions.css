@@ -1,0 +1,31 @@
+.transactions {
+  position: relative; }
+  .transactions__title {
+    font-size: 18px;
+    margin: 0 0 17px;
+    color: #0b1c26; }
+  .transactions__form {
+    width: 792px;
+    margin: 0 auto; }
+  .transactions__spin, .transactions__error {
+    position: absolute;
+    bottom: -45px;
+    display: inline-block;
+    margin: 0 auto; }
+  .transactions__error {
+    left: 0;
+    right: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 18px;
+    color: red; }
+  .transactions__table {
+    width: 830px;
+    margin: 55px auto 0; }
+  .transactions__text {
+    margin: 0 0 35px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 700; }
+  .transactions__success {
+    margin-top: 65px; }

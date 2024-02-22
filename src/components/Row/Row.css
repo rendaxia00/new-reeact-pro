@@ -1,0 +1,13 @@
+.row {
+  width: 100%;
+  font-size: 18px;
+  color: #0b1c26;
+  border-bottom: 1px solid #ebebeb; }
+  .row__cell {
+    padding-top: 34px;
+    padding-bottom: 25px;
+    line-height: 1; }
+    .row__cell_accept {
+      color: #4da07e; }
+    .row__cell_decline {
+      color: #ed5a5a; }

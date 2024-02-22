@@ -1,0 +1,17 @@
+.steps {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+  .steps__item {
+    position: relative;
+    padding: 60px 0 75px;
+    text-align: center; }
+    .steps__item:after {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-image: linear-gradient(to left, #ed5a5a 0%, #bf56ce 52%, #1ed3d0 100%);
+      width: auto;
+      height: 1px;
+      content: ''; }
