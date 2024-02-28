@@ -1,6 +1,6 @@
 {
   "name": "presale-demo-pe",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "dependencies": {
     "axios": "^0.15.3",
     "classnames": "^2.2.5",
@@ -16,7 +16,42 @@
     "redux": "^3.6.0",
     "redux-logger": "^2.10.0",
     "redux-thunk": "^2.2.0",
-    "serve": "^5.0.3"
+    "serve": "^5.0.3",
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-proposal-decorators": "^7.12.1",
+    "@babel/plugin-proposal-object-rest-spread": "^7.12.1",
+    "@babel/plugin-transform-flow-strip-types": "^7.22.5",
+    "@babel/plugin-transform-react-display-name": "^7.12.1",
+    "@babel/plugin-transform-react-jsx": "^7.12.1",
+    "@babel/plugin-transform-runtime": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-typescript": "^7.14.5",
+    "@microsoft/api-extractor": "^7.18.1",
+    "@reduxjs/toolkit": "^2.0.0-beta.4",
+    "@testing-library/jest-dom": "^6.3.0",
+    "@testing-library/react": "^14.1.2",
+    "@testing-library/react-hooks": "^8.0.1",
+    "@types/node": "^20.11.6",
+    "@types/react": "18.2.25",
+    "@typescript-eslint/eslint-plugin": "^6.17.0",
+    "@typescript-eslint/parser": "^6.17.0",
+    "babel-eslint": "^10.1.0",
+    "codecov": "^3.8.0",
+    "cross-env": "^7.0.2",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-prettier": "^5.1.2",
+    "eslint-plugin-react": "^7.33.2",
+    "glob": "^7.1.6",
+    "jsdom": "^24.0.0",
+    "prettier": "^3.1.1",
+    "react-test-renderer": "18.0.0",
+    "rimraf": "^3.0.2",
+    "tsup": "^7.0.0",
+    "typescript": "^5.0",
+    "vitest": "^1.2.1"
   },
   "devDependencies": {
     "react-scripts": "0.9.5"
@@ -36,7 +71,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rendaxia00/new-reeact-pro.git"
+    "url": "https://github.com/rendaxia00/new-reeact-pro"
   },
   "keywords": [
     "presale"
